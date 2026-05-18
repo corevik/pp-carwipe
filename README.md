@@ -1,4 +1,6 @@
  #pp-carwipe 
+
+ showcase https://youtu.be/BND2tm9ICt8
 this was made by the help of chatgpt. i have more scripts coming in the future. 
 you can re code anything youd like to make it work for you. 
 

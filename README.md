@@ -225,3 +225,11 @@ pp_carwipe/
 ├── client.lua
 └── README.md
 ```
+```ALTER TABLE `player_vehicles`
+ADD COLUMN IF NOT EXISTS `state` INT(11) NOT NULL DEFAULT 1;
+ALTER TABLE `player_vehicles`
+ADD COLUMN IF NOT EXISTS `garage` VARCHAR(50) NOT NULL DEFAULT 'legionsquare';
+UPDATE `player_vehicles`
+SET `state` = 1
+WHERE `state` = 0;
+

@@ -2,6 +2,8 @@
 this was made by the help of chatgpt. i have more scripts coming in the future. 
 you can re code anything youd like to make it work for you. 
 
+
+add this to server cfg. add_ace group.admin pp_carwipe.admin allow
 Automatic txAdmin-style vehicle wipe system for FiveM/QBX/Qbox/QBCore servers.
 
 - Sends txAdmin-style announcements.

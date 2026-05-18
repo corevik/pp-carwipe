@@ -225,6 +225,11 @@ pp_carwipe/
 ├── client.lua
 └── README.md
 ```
+If your table already has state and garage, don’t run the ALTER commands. The car wipe script only needs this:
+
+player_vehicles.state = 1
+
+That is what makes the car show back in the garage.
 ```ALTER TABLE `player_vehicles`
 ADD COLUMN IF NOT EXISTS `state` INT(11) NOT NULL DEFAULT 1;
 ALTER TABLE `player_vehicles`
